@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, SkripDroidActivity!</string>
-    <string name="app_name">SkripDroid</string>
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="app_name">SkripDroid</string>
+	<string name="app_url">http://github.com/alfaridi/GDSkripsi</string>
+
+	<string name="about_content">
+		SkripDroid adalah aplikasi android yang dibuat untuk memenuhi
+		persyaratan tugas akhir. Aplikasi ini dibuat oleh
+		<b>Dichi Al Faridi</b>
+		.Silahkan mendownload dan mempergunakan
+		<i>source code</i>
+		aplikasi SkripDroid di
+		<a href="http://github.com/alfaridi/GDSkripsi">http://github.com/alfaridi/GDSkripsi</a>
+		dengan lisensi GPL v2.
+	</string>
+
+	<string name="segment_1">Wall</string>
+	<string name="segment_2">Feed</string>
+	<string name="segment_3">Info</string>
+
 </resources>

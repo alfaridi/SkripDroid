@@ -1,12 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+	xmlns:Dashboard="http://schemas.android.com/apk/res/info.alfaridi.skripdroid.utils"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<info.alfaridi.skripdroid.utils.DashboardLayout
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:gravity="top">
+		<LinearLayout android:id="@+id/linearLayout1"
+		android:gravity="center"
+			android:orientation="vertical" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<ImageButton android:id="@+id/facebook" android:gravity="center"
+				android:layout_width="wrap_content" android:src="@drawable/facebook1"
+				android:background="@android:color/background_light"
+				android:onClick="onFacebookClick"
+				android:layout_height="wrap_content">Facebook</ImageButton>
+			<TextView android:text="Facebook" android:id="@+id/textView1"
+				android:gravity="center" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayout2"
+		android:gravity="center"
+			android:orientation="vertical" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<ImageButton android:id="@+id/twitter" android:gravity="center"
+				android:layout_width="wrap_content" android:src="@drawable/twitter1"
+				android:background="@android:color/background_light"
+				android:onClick="onTwitterClick"
+				android:layout_height="wrap_content"></ImageButton>
+			<TextView android:text="Twitter" android:id="@+id/textView2"
+				android:gravity="center" android:layout_width="wrap_content"
+				android:layout_height="wrap_content"></TextView>
+		</LinearLayout>
+	</info.alfaridi.skripdroid.utils.DashboardLayout>
+
 </LinearLayout>
