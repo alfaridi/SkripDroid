@@ -1,5 +1,7 @@
-package info.alfaridi.skripdroid;
+package info.alfaridi.skripdroid.twitter;
 
+import info.alfaridi.skripdroid.R;
+import info.alfaridi.skripdroid.R.layout;
 import greendroid.app.GDActivity;
 import android.os.Bundle;
 

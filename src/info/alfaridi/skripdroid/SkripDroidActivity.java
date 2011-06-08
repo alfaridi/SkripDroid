@@ -4,6 +4,8 @@ import greendroid.app.GDActivity;
 import greendroid.graphics.drawable.ActionBarDrawable;
 import greendroid.widget.ActionBarItem;
 import greendroid.widget.NormalActionBarItem;
+import info.alfaridi.skripdroid.facebook.FacebookActivity;
+import info.alfaridi.skripdroid.twitter.TwitterActivity;
 import info.alfaridi.skripdroid.utils.Base64;
 
 import java.security.MessageDigest;
