@@ -3,6 +3,8 @@
 	<name>SkripDroid</name>
 	<comment></comment>
 	<projects>
+		<project>com_facebook_android</project>
+		<project>GDCatalog</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
